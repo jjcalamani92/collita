@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <Fragment>
     <HeaderMarketing />
-    <h1>Hola</h1>
+    
     </Fragment>
   )
 }

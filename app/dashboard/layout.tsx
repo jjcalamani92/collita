@@ -1,14 +1,14 @@
 'use client';
 
-import { ReactNode } from 'react';
+import { Fragment, ReactNode } from 'react';
 import HeaderDashboard from '../../components/HeaderDashboard';
 export default function Layout({ children }: { children: ReactNode }) {
 
   return (
-    <>
+    <Fragment>
       <HeaderDashboard />
       
-        <div>{children}</div>
-    </>
+        {children}
+    </Fragment>
   );
 }

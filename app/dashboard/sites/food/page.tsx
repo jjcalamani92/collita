@@ -13,8 +13,7 @@ export default function Page() {
   const {data: sitesFood} = useSitesFood(use(findSitesFood()))
   
   
-  const listFood = useMemo(() => sitesFood,
-  [sitesFood])
+  const listFood = useMemo(() => sitesFood, [sitesFood])
 
 
   return (
