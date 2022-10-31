@@ -45,8 +45,9 @@ export const CategoryPreviews = () => {
               <h3 className="mt-6 text-sm text-gray-500">
                 <Link href={`/dashboard/sites/${callout.href}`}>
                 
-                  <span className="absolute inset-0" />
-                  {callout.name}
+                  <span className="absolute inset-0" >
+                    {callout.name}
+                  </span>
                 
                 </Link>
               </h3>
@@ -77,8 +78,10 @@ export const CategoryPreviewProjects = () => {
               <h3 className="mt-6 text-sm text-gray-500">
                 <Link href={`/dashboard/projects/${callout.href}`}>
                 
-                  <span className="absolute inset-0" />
-                  {callout.name}
+                  <span className="absolute inset-0" >
+
+                    {callout.name}
+                  </span>
                 
                 </Link>
               </h3>
